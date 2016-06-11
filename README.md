@@ -1,25 +1,22 @@
-# django-vue-webpack
-A boilerplate of using Django as backend framework, Vue js and webpack as the frontend setup.
+# DjangoVue
+A boilerplate using Django and Vue.
 
 ## Installation 
-#### Clone the repository
-```git clone git@github.com:longtranista/django-vue-webpack.git```
+#### Clone the repository`
 
-#### Run django 
+#### Run
 ```python manage.py runserver 0.0.0.0:8000```
 
-#### Install npm packages
+#### Install packages
 ```npm install```
 
-#### Run client (node)
+#### Run client
 ```npm run dev```
 
-#### Build production (node)
+#### Build production
 ```npm run build```
 
 
-We are done. 
-
-#### Enjoy coding
+#### Test
   * Frontend: http://localhost:8080/
   * Backend: http://localhost:8000/
