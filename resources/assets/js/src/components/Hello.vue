@@ -17,40 +17,16 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
-
-    <div>
-      <h2>GET data from Django API (/api/test)</h2>
-
-      <div class="wrapper">
-        <p>/api/test</p>
-        <span>foo</span>: <span>{{ testData.foo }}</span>
-      </div>
-    </div>
-
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-
 export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
-      testData: {}
+      msg: 'Welcome to Your Vue.js App'
     }
-  },
-  mounted () {
-    console.log('mounted')
-    axios.get('/api/test')
-      .then((response) => {
-        // console.log(response)
-        this.testData = response.data
-      })
-      .catch((error) => {
-        console.log(error)
-      })
   }
 }
 </script>
@@ -73,13 +49,5 @@ li {
 
 a {
   color: #42b983;
-}
-
-.wrapper{
-  padding: 20px 40px;
-  border: 1px solid #c0c0c0;
-  max-width: 400px;
-  margin: 0 auto;
-  background: orange;
 }
 </style>
