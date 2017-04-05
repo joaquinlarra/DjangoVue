@@ -14,6 +14,10 @@ A boilerplate of using Django as backend framework, Vue js and webpack as the fr
 #### Run client (node)
 ```npm run dev```
 
+#### Build production (node)
+```npm run build```
+
+
 We are done. 
 
 #### Enjoy coding
