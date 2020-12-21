@@ -13,7 +13,7 @@ A boilerplate of using Django as backend framework, Vue js and webpack as the fr
 #### Run client (node)
 ```npm run dev```
 
-We are done. 
+Done. 
 
 #### Enjoy coding
   * Frontend: http://localhost:8081/
