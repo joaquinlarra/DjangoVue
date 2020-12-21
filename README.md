@@ -1,4 +1,4 @@
-# django-vue-webpack
+# DjangoVue
 A boilerplate of using Django as backend framework, Vue js and webpack as the frontend setup.
 
 ## Installation 
